@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.nav-link {
+    .credential {
+        height: 30vh;
+        width: 80vw;
+        flex-direction: column;
+        i {
+            font-size: 50px;
+            color: black;
+        }
+        &:hover {
+            box-shadow: 5px 5px 5px gray;
+        }
+    }
+}
+
+.upload-section {
+    max-height: calc(100vh - 170px);
+    overflow: auto;
+}
